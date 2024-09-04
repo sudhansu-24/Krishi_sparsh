@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form | Dan Aleko</title>
+    <link rel="stylesheet" href="logincss.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-page">
+      <form action="/login" method="post">
+        <h1>Login</h1>
+        <div class="input-box">
+          <input type="text" name="email" placeholder="Email" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box eye">
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+            required
+          />
+          <i class="fa-solid fa-eye-slash" id="eyeicon"></i>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Remember Me</label>
+          <a href="#">Forgot Password</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>Dont have an account? <a href="public/index.html">Register</a></p>
+        </div>
+      </form>
+    </div>
+    <script>
+      let eyeicon = document.getElementById("eyeicon");
+      let password = document.getElementById("password");
+      eyeicon.addEventListener("click", () => {
+        console.log("clicked");
+        if (password.type == "password") {
+          password.type = "text";
+          eyeicon.classList = "fa-solid fa-eye";
+        } else {
+          password.type = "password";
+          eyeicon.classList = "fa-solid fa-eye-slash";
+        }
+      });
+    </script>
+  </body>
+</html>
