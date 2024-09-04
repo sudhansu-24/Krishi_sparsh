@@ -5,9 +5,9 @@
 
   <h2 align="center">Krishi Sparsh</h2>
 
-  Krishi Sparsh is a fully responsive hospital website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Krishi Sparsh is a fully responsive contract farming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://krishi-margdarshak7.netlify.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://krishi-margdarshak7.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 </div>
 
