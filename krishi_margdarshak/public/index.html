@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html{
+            width: 100%;
+            height: 100%;
+            
+            
+        }
+
+        *{
+            margin: 0;
+        }
+
+        body{
+            background-image: url('https://thumbs.dreamstime.com/b/rural-musterd-field-bangladesh-fully-bloomed-flowers-36487977.jpg?w=768');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            opacity: 0.8;
+        
+
+           
+           
+           
+        }
+
+       /* body{
+            background-image: url('https://th.bing.com/th/id/OIP._XTTSzlOw8MPoP7vEHN7ewHaEK?w=350&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }*/
+
+        /*body{
+            background-color: lawngreen;
+        }*/
+
+       
+        .one{
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            gap: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+            border:8px solid yellowgreen;
+            padding:40px 40px;
+            border-style:double;
+            background-color: azure;
+            color:darkblue;
+            opacity: 1;
+            border-radius: 5%;
+            box-shadow: 10px 10px skyblue;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 50;
+            font-size:x-large;
+            
+
+
+        
+        }
+
+        h1{
+            background-color: azure;
+            width: 500px;
+            margin: auto;
+            height: 50px;
+            text-align: center;
+            border: 8px solid yellowgreen;
+            border-style:groove;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 200;
+
+        
+        }
+
+        .form1{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            opacity: 1
+            ;
+            
+        
+        }
+
+        .i{
+            border:4px solid blueviolet;
+            
+        }
+
+        
+
+        
+
+        
+
+        
+
+        input{
+            width:500px;
+        }
+
+        h1{
+            text-align: center;
+            padding-top: 10px;
+            
+        }
+
+        .b{
+            margin-top: 40px;
+            border: 4px solid blueviolet;
+            border-style: ridge;
+            width: 150px;
+            margin: auto;
+            border-radius: 45%;
+            height: 60px;
+        }
+
+        .in{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading"><h1>Crop Suitability Assessment</h1></div>
+
+    
+        <div class="form1">
+            <form action="/crop" method="post">
+                <div class="one">
+                    <label for="Soil">Type of Soil:</label>
+                        <input type="text" name="soil" placeholder="Enter the type of soil" class="i">
+                    <label for="Location">Location (City):</label>
+                        <input type="text" name="location" class="i" placeholder="Enter the address of your land i.e city">
+                    <label for="Temperature">Temperature Range:</label>
+                    <input type="text" name="temperature" class="i in"  placeholder="Enter the range of temperature">
+                    <button type="submit" class="b">Submit Answers</button>
+                </div>
+                
+        
+            </form>
+        </div>
+    
+    
+    
+   
+    
+</body>
+</html>
