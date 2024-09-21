@@ -7,7 +7,7 @@
 
   Krishi Sparsh is a fully responsive contract farming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://krishi-margdarshak7.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
+  <a href="https://krishi-sparsh7.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 </div>
 
